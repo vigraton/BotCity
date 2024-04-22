@@ -1,0 +1,42 @@
+~ EXEMPLOS DE LISTAS 
+  CURSO EM VÍDEO ~ 
+
+  Tuplas () - Imutáveis
+  Listas [] - Mutáveis
+
+  números = ['1', '2', '3', '4']
+  números[3] = '5' --- Na posição três, o número 4 será substituído pelo 
+  5
+
+  '1', '2', '3', '5'
+  [0], [1], [2], [3] --- Posição
+
+  número.append('7') --- adiciona valor ao final da lista 
+  número.insert(0,'8') --- adiciona o valor 8 na posição 0
+
+  '8', '1', '2', '3', '5', '7'
+
+
+  ~ REMOVENDO ITENS DA LISTA ~
+
+  del número[3] --- Remove pelas posição
+  número.pop(3) --- Normalmente ele remove o último item, mas dá pra 
+  adicionar parâmetros
+  número.remove('5') --- Remove pelo conteúdo
+
+
+  if '7' in números:
+    número.remove('7')
+
+  
+  valores = list(range(4,11))
+
+  valores = [8, 2, 5, 4, 9, 3, 0]
+  valores.sort() --- Põe os valores em ordem crescente
+  valores.sort(reverse=True) --- Põe os valores na ordem decrecesnte
+  len(valores) --- Conta quantos elementos tem na lista
+
+  
+
+
+
