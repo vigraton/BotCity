@@ -2,3 +2,4 @@
 # Armazene os números pares no vetor PAR e os números IMPARES no vetor 
 # impar. Imprima os três vetores.
 
+# def 

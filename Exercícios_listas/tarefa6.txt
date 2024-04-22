@@ -1,0 +1,10 @@
+ Faça um Programa que peça as quatro notas de 10 alunos, calcule e 
+ armazene num vetor a média de cada aluno, imprima o número de alunos 
+ com média maior ou igual a 7.0.
+
+ - Loop para pedir 4 notas 10 vezes (para os 10 alunos)
+    - for i in range (9) --- Tem que ser 'i' e não '_' pq os valores tbm
+    iteragir com o loop
+ - Variável para a quantia de alunos colocados no input (shei nhao hein)
+   - Posição 0, aluno 1
+   - Posição 1, aluno 2...

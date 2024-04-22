@@ -1,0 +1,14 @@
+A variável 'quadrado' não é estritamente necessário, mas é uma convenção comum em 
+programação orientada a objetos. Quando você cria uma instância de uma classe, você
+está criando um objeto que é uma instância dessa classe. Atribuir essa instância a 
+uma variável (como 'quadrado' neste caso) permite que você acesse e manipule facilmente 
+os atributos e métodos desse objeto.
+
+No exemplo dado, 'quadrado' é a instância da classe 'Quadrado' com um tamanho de lado 
+inicial de 5. Atribuir essa instância auma variável permite que você faça chamadas aos 
+métodos da classe ('mostrar_lado()', 'mudar_lado()', 'calcular_area()') usando esse objeto
+específico.
+
+Portanto, embora não seja estritamente necessário atribuir a instância a uma variável, isso 
+torna o código mais legível e fácil de entender, especialmente quando você precisa trabalhar
+com múltiplas instâncias da mesma classe.

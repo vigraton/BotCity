@@ -1,0 +1,32 @@
+ Faça um Programa que leia um vetor de 10 caracteres, e diga quantas 
+ consoantes foram lidas. Imprima as consoantes.
+
+    ~ MEU CÓDIGO ~
+
+letra = []
+
+for letra in range(3):
+    input('Digite qualquer letra: ').upper()
+
+if letra == ['A', 'E', 'I', 'O', 'U']:
+    print('Vogais: ', letra)
+else:
+    print('Consoates: ', letra)
+
+
+    ~ OBSERVAÇÕES DO CHAT ~
+
+    1. Leitura do vetor de caracteres: Você está tentando usar um loop 'for'
+    para ler letras, mas não está armazenando essas letras em uma lista.
+    Além disso, o loop deve iterar 10 vezes para ler 10 caracteres.
+
+    2. Uso incorreto do método 'upper()': O método 'upper()' deve ser chamado
+    como uma função, ou seja, você deve usar parênteses '()' após 'upper'.
+    Isso é necessário para transformar a letra lida em maiúscula.
+
+    3. Verificação de consoantes: Sua verificação de consoantes está incorreta.
+    Você está verificando se a variável 'letra' é igual À lista de vogais, o que 
+    não está de acordo com o que você deseja fazer.
+
+    4. Imprimindo o resultado: Você deseja imprimir as consoantes, mas está
+    imprimindo a variável 'letra' em ambos os casos.

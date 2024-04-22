@@ -1,0 +1,11 @@
+Em Python 'self' é uma convenção usada para representar a instância atual da classe. 
+É o primeiro parâmetro de qualquer método de uma classee fornece uma referência ao 
+próprio objeto.
+
+No método 'troca_cor(self, cor)', 'self' refere-se a instância do objeto 'CirculoPerfeito' 
+no qual o método é chamado. Quando você cham 'circulo_primeiro.troca_cor('NovaCor')', o 'self'
+dentro desse método representa o próprio obejto 'circulo_primeiro'.
+
+Assim, ao usar 'self.cor = cor' você está modificando a propriedade 'vor' específica da instância à qual 
+o método foi chamado. Em outras palavras, o 'self' é uma referência ao objeto atual, permitindo que você
+acesse e modifique as propriedades do objeto dentro dos métodos da classe.

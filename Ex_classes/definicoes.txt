@@ -1,0 +1,16 @@
+- Classe == forma de gelo
+    - class Filme()
+    - Atributos == características
+    - Métodos == ações dentro do 'filme': dar pause, dar play, maximizar ou minimizar etc.
+
+- Objeto == gelo
+    - Cacete, qualquer coisa dentro do Python é um objeto. Se liga:
+    - texto = "Meu nome é Vivian"
+    - texto.replace("nome", "apelido")
+
+    - class String:
+    - def replace
+
+- Instância == elemento de uma classe específica
+    - filme = Filme()
+    - Todos os atributos e métodos serão atribuídos a essa instância
