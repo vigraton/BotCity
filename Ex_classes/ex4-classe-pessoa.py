@@ -1,5 +1,5 @@
 # Encapsulamento
-# Não acredito que fiquei qause 10/15 minutos no mesmo erro, só pq o método envelhecer nçao estava indentado na classe Pessoa ;-;
+# Não acredito que fiquei quase 10/15 minutos no mesmo erro, só pq o método envelhecer não estava indentado na classe Pessoa ;-;
 
 class Pessoa:
     def __init__(self, nome, idade, peso, altura):
