@@ -1,3 +1,5 @@
+# Código do chat
+
 class Bichinho_Virtual():
     def __init__(self, nome, fome, saude, idade):
         self.nome = nome

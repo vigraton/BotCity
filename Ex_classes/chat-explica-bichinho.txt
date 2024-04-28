@@ -1,0 +1,31 @@
+Na minha primeira tentativa (bichin.py), o chat disse que eu estava no caminho certo.
+Ele ajustou praticamente tudo e implementou o que faltava no código.
+
+Explicação do código:
+
+1. Classe 'Bichinho_Virtual':
+- Esta pe  definição da classe que modela o bichinho virtual. Ela possui os seguintes 
+atributos:
+    - 'nome': Nome do bichinho
+    - 'fome': Nível de fome do bichinho (0 a 100)
+    - 'saude': Nível de saúde do bichinho (0 a 100)
+    - 'idade': Idade do bichinho (em anos)
+
+- Métodos:
+    - '__ini__(self, nome, fome, saude, idade)': Método construtor que inicializa os atributos
+    do bichinho com os valores passados como argumentos.
+    - alterar_nome(self, novo_nome)': Método para alterar o nome do bichinho.
+    - 'alterar_fome(self, novo_nivel_fome)': Método para alterar o nível de fome.
+    - 'alterar_saude(self, novo_nivel_saude)': Método para alterar o nível de saúde.
+    - 'envelhecer(self)': Método para aumentar a idade do bichinho em 1 ano.
+    - 'calcular_humor(self)': Método para calcular humor do bichinho com base nos níveis de fome 
+    e saúde. Se ambos estiverem acima de 50, o bichinho estará feliz; caso contrário, estará triste.
+    - 'retornar_info()': Método para retornar uma string com todas as informações do bichinho (nome,
+    idade, fome, saúde e humor).
+
+- Testando a classe:
+    - É criada uma instância da classe 'Bichinho_Virtual' chamada 'bichinho' com o nome 'Bob', níveis
+    de fome e saúde iniciais de 30 et 70, respectivamente, e idade inicial de 2 anos.
+    - É utilizado para simular o envelhecimento do bichinho e exibir suas informações a cada iteração.
+    - Em seguida, é alterado o nível de fome do bichinho para 60 e são exibidas suas informações novamente.
+    - Por fim, o nível de saúde é alterado para 40 e as informações são exibidas de novo.
